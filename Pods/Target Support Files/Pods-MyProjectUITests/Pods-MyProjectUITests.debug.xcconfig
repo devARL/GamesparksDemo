@@ -1,0 +1,9 @@
+FRAMEWORK_SEARCH_PATHS = $(inherited) "${PODS_CONFIGURATION_BUILD_DIR}/AFNetworking" "${PODS_CONFIGURATION_BUILD_DIR}/GameSparks" "${PODS_CONFIGURATION_BUILD_DIR}/LGSideMenuController" "${PODS_CONFIGURATION_BUILD_DIR}/SCLAlertView-Objective-C" "${PODS_CONFIGURATION_BUILD_DIR}/SDWebImage"
+GCC_PREPROCESSOR_DEFINITIONS = $(inherited) COCOAPODS=1
+HEADER_SEARCH_PATHS = $(inherited) "${PODS_CONFIGURATION_BUILD_DIR}/AFNetworking/AFNetworking.framework/Headers" "${PODS_CONFIGURATION_BUILD_DIR}/GameSparks/GameSparks.framework/Headers" "${PODS_CONFIGURATION_BUILD_DIR}/LGSideMenuController/LGSideMenuController.framework/Headers" "${PODS_CONFIGURATION_BUILD_DIR}/SCLAlertView-Objective-C/SCLAlertView_Objective_C.framework/Headers" "${PODS_CONFIGURATION_BUILD_DIR}/SDWebImage/SDWebImage.framework/Headers"
+LD_RUNPATH_SEARCH_PATHS = $(inherited) '@executable_path/Frameworks' '@loader_path/Frameworks'
+OTHER_LDFLAGS = $(inherited) -framework "AFNetworking" -framework "Accelerate" -framework "AudioToolbox" -framework "CoreGraphics" -framework "GameSparks" -framework "ImageIO" -framework "LGSideMenuController" -framework "MobileCoreServices" -framework "SCLAlertView_Objective_C" -framework "SDWebImage" -framework "Security" -framework "SystemConfiguration" -framework "UIKit"
+PODS_BUILD_DIR = ${BUILD_DIR}
+PODS_CONFIGURATION_BUILD_DIR = ${PODS_BUILD_DIR}/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)
+PODS_PODFILE_DIR_PATH = ${SRCROOT}/.
+PODS_ROOT = ${SRCROOT}/Pods

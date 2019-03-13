@@ -1,0 +1,6 @@
+framework module GameSparks {
+  umbrella header "GameSparks-umbrella.h"
+
+  export *
+  module * { export * }
+}

@@ -1,0 +1,57 @@
+PODS:
+  - AFNetworking (3.2.1):
+    - AFNetworking/NSURLSession (= 3.2.1)
+    - AFNetworking/Reachability (= 3.2.1)
+    - AFNetworking/Security (= 3.2.1)
+    - AFNetworking/Serialization (= 3.2.1)
+    - AFNetworking/UIKit (= 3.2.1)
+  - AFNetworking/NSURLSession (3.2.1):
+    - AFNetworking/Reachability
+    - AFNetworking/Security
+    - AFNetworking/Serialization
+  - AFNetworking/Reachability (3.2.1)
+  - AFNetworking/Security (3.2.1)
+  - AFNetworking/Serialization (3.2.1)
+  - AFNetworking/UIKit (3.2.1):
+    - AFNetworking/NSURLSession
+  - GameSparks (0.5.0)
+  - LGSideMenuController (2.1.1)
+  - SCLAlertView-Objective-C (1.1.6)
+  - SDWebImage (4.4.5):
+    - SDWebImage/Core (= 4.4.5)
+  - SDWebImage/Core (4.4.5)
+
+DEPENDENCIES:
+  - AFNetworking (~> 3.0)
+  - GameSparks (from `https://bitbucket.org/gamesparks/gamesparks-ios-sdk.git`, tag `0.5.0`)
+  - LGSideMenuController
+  - SCLAlertView-Objective-C
+  - SDWebImage (~> 4.0)
+
+SPEC REPOS:
+  https://github.com/cocoapods/specs.git:
+    - AFNetworking
+    - LGSideMenuController
+    - SCLAlertView-Objective-C
+    - SDWebImage
+
+EXTERNAL SOURCES:
+  GameSparks:
+    :git: https://bitbucket.org/gamesparks/gamesparks-ios-sdk.git
+    :tag: 0.5.0
+
+CHECKOUT OPTIONS:
+  GameSparks:
+    :git: https://bitbucket.org/gamesparks/gamesparks-ios-sdk.git
+    :tag: 0.5.0
+
+SPEC CHECKSUMS:
+  AFNetworking: b6f891fdfaed196b46c7a83cf209e09697b94057
+  GameSparks: a406f8ae931ec3ea70c49d59136de1972ad86076
+  LGSideMenuController: ae40c80983ab8b8801c7cef0a6804d43aaa72d45
+  SCLAlertView-Objective-C: 2bb9be204bffaf24762a0e33fe6ca9645819b3b7
+  SDWebImage: ecc03494e973b93b80213649d32175f8d2d17d4d
+
+PODFILE CHECKSUM: 2110e67412455e2c121f70a919d20ba48b8dbf18
+
+COCOAPODS: 1.6.0
